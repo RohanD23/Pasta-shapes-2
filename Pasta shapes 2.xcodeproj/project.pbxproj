@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02214D3281ACA3B0072D1C6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214D2281ACA3B0072D1C6 /* Tests_iOS.swift */; };
+		F02214D5281ACA3B0072D1C6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214D4281ACA3B0072D1C6 /* Tests_iOSLaunchTests.swift */; };
+		F02214DF281ACA3C0072D1C6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214DE281ACA3C0072D1C6 /* Tests_macOS.swift */; };
+		F02214E1281ACA3C0072D1C6 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214E0281ACA3C0072D1C6 /* Tests_macOSLaunchTests.swift */; };
+		F02214E4281ACA3C0072D1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214BB281ACA3A0072D1C6 /* ContentView.swift */; };
+		F02214E5281ACA3C0072D1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214BB281ACA3A0072D1C6 /* ContentView.swift */; };
+		F02214E6281ACA3C0072D1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02214BC281ACA3B0072D1C6 /* Assets.xcassets */; };
+		F02214E7281ACA3C0072D1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02214BC281ACA3B0072D1C6 /* Assets.xcassets */; };
+		F02214FE281ACB040072D1C6 /* PastaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214FD281ACB040072D1C6 /* PastaApp.swift */; };
+		F02214FF281ACB040072D1C6 /* PastaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02214FD281ACB040072D1C6 /* PastaApp.swift */; };
+		F0221501281ACB430072D1C6 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221500281ACB430072D1C6 /* NavigationView.swift */; };
+		F0221502281ACB430072D1C6 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221500281ACB430072D1C6 /* NavigationView.swift */; };
+		F0221504281ACB620072D1C6 /* UniversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221503281ACB620072D1C6 /* UniversalView.swift */; };
+		F0221505281ACB620072D1C6 /* UniversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221503281ACB620072D1C6 /* UniversalView.swift */; };
+		F0221507281ACBA90072D1C6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221506281ACBA90072D1C6 /* DateExtension.swift */; };
+		F0221508281ACBA90072D1C6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221506281ACBA90072D1C6 /* DateExtension.swift */; };
+		F022150A281ACBCA0072D1C6 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221509281ACBCA0072D1C6 /* ImageExtension.swift */; };
+		F022150B281ACBCA0072D1C6 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221509281ACBCA0072D1C6 /* ImageExtension.swift */; };
+		F022150D281ACBE90072D1C6 /* SemolinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022150C281ACBE90072D1C6 /* SemolinaView.swift */; };
+		F022150E281ACBE90072D1C6 /* SemolinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022150C281ACBE90072D1C6 /* SemolinaView.swift */; };
+		F0221510281ACC380072D1C6 /* SpinachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022150F281ACC380072D1C6 /* SpinachView.swift */; };
+		F0221511281ACC380072D1C6 /* SpinachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022150F281ACC380072D1C6 /* SpinachView.swift */; };
+		F0221513281ACC9C0072D1C6 /* SquidInkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221512281ACC9C0072D1C6 /* SquidInkView.swift */; };
+		F0221514281ACC9C0072D1C6 /* SquidInkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0221512281ACC9C0072D1C6 /* SquidInkView.swift */; };
+		F0B59C432821A6B300F1B738 /* FusilliAlFerretoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C422821A6B300F1B738 /* FusilliAlFerretoView.swift */; };
+		F0B59C442821A6B300F1B738 /* FusilliAlFerretoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C422821A6B300F1B738 /* FusilliAlFerretoView.swift */; };
+		F0B59C472821A6FE00F1B738 /* TagiatelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C462821A6FE00F1B738 /* TagiatelleView.swift */; };
+		F0B59C482821A6FE00F1B738 /* TagiatelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C462821A6FE00F1B738 /* TagiatelleView.swift */; };
+		F0B59C4A2821A72E00F1B738 /* TortelliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C492821A72E00F1B738 /* TortelliniView.swift */; };
+		F0B59C4B2821A72E00F1B738 /* TortelliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C492821A72E00F1B738 /* TortelliniView.swift */; };
+		F0B59C4D2821A74B00F1B738 /* CappellacciDiZuccaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C4C2821A74B00F1B738 /* CappellacciDiZuccaView.swift */; };
+		F0B59C4E2821A74B00F1B738 /* CappellacciDiZuccaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C4C2821A74B00F1B738 /* CappellacciDiZuccaView.swift */; };
+		F0B59C502821A76E00F1B738 /* TortelliPiacentiniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C4F2821A76E00F1B738 /* TortelliPiacentiniView.swift */; };
+		F0B59C512821A76E00F1B738 /* TortelliPiacentiniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C4F2821A76E00F1B738 /* TortelliPiacentiniView.swift */; };
+		F0B59C532821A78300F1B738 /* FarfalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C522821A78300F1B738 /* FarfalleView.swift */; };
+		F0B59C542821A78300F1B738 /* FarfalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C522821A78300F1B738 /* FarfalleView.swift */; };
+		F0B59C562821A79400F1B738 /* GarganelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C552821A79400F1B738 /* GarganelliView.swift */; };
+		F0B59C572821A79400F1B738 /* GarganelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C552821A79400F1B738 /* GarganelliView.swift */; };
+		F0B59C592821A7A300F1B738 /* AnoliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C582821A7A300F1B738 /* AnoliniView.swift */; };
+		F0B59C5A2821A7A300F1B738 /* AnoliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C582821A7A300F1B738 /* AnoliniView.swift */; };
+		F0B59C5C2821A7B600F1B738 /* CappellettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C5B2821A7B600F1B738 /* CappellettiView.swift */; };
+		F0B59C5D2821A7B600F1B738 /* CappellettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C5B2821A7B600F1B738 /* CappellettiView.swift */; };
+		F0B59C5F2821A85D00F1B738 /* TaglioliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C5E2821A85D00F1B738 /* TaglioliniView.swift */; };
+		F0B59C602821A85D00F1B738 /* TaglioliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C5E2821A85D00F1B738 /* TaglioliniView.swift */; };
+		F0B59C622821A86900F1B738 /* AgnolottiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C612821A86900F1B738 /* AgnolottiView.swift */; };
+		F0B59C632821A86900F1B738 /* AgnolottiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C612821A86900F1B738 /* AgnolottiView.swift */; };
+		F0B59C652821A87C00F1B738 /* SacchettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C642821A87C00F1B738 /* SacchettiView.swift */; };
+		F0B59C662821A87C00F1B738 /* SacchettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C642821A87C00F1B738 /* SacchettiView.swift */; };
+		F0B59C692821A8FF00F1B738 /* CavatelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C682821A8FF00F1B738 /* CavatelliView.swift */; };
+		F0B59C6A2821A8FF00F1B738 /* CavatelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C682821A8FF00F1B738 /* CavatelliView.swift */; };
+		F0B59C6C2821A90F00F1B738 /* MalloreddusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C6B2821A90F00F1B738 /* MalloreddusView.swift */; };
+		F0B59C6D2821A90F00F1B738 /* MalloreddusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C6B2821A90F00F1B738 /* MalloreddusView.swift */; };
+		F0B59C6F2821A91D00F1B738 /* LorighittasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C6E2821A91D00F1B738 /* LorighittasView.swift */; };
+		F0B59C702821A91D00F1B738 /* LorighittasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C6E2821A91D00F1B738 /* LorighittasView.swift */; };
+		F0B59C722821A92F00F1B738 /* CencioniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C712821A92F00F1B738 /* CencioniView.swift */; };
+		F0B59C732821A92F00F1B738 /* CencioniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C712821A92F00F1B738 /* CencioniView.swift */; };
+		F0B59C752821A93B00F1B738 /* CapuntiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C742821A93B00F1B738 /* CapuntiView.swift */; };
+		F0B59C762821A93B00F1B738 /* CapuntiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C742821A93B00F1B738 /* CapuntiView.swift */; };
+		F0B59C782821A94B00F1B738 /* StrascinatiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C772821A94B00F1B738 /* StrascinatiView.swift */; };
+		F0B59C792821A94B00F1B738 /* StrascinatiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C772821A94B00F1B738 /* StrascinatiView.swift */; };
+		F0B59C7B2821A95C00F1B738 /* CulurgionisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C7A2821A95C00F1B738 /* CulurgionisView.swift */; };
+		F0B59C7C2821A95C00F1B738 /* CulurgionisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C7A2821A95C00F1B738 /* CulurgionisView.swift */; };
+		F0B59C7E2821A97500F1B738 /* SagneIncannulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C7D2821A97500F1B738 /* SagneIncannulateView.swift */; };
+		F0B59C7F2821A97500F1B738 /* SagneIncannulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C7D2821A97500F1B738 /* SagneIncannulateView.swift */; };
+		F0B59C822821A9B500F1B738 /* FoglieD'UlivoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C812821A9B500F1B738 /* FoglieD'UlivoView.swift */; };
+		F0B59C832821A9B500F1B738 /* FoglieD'UlivoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C812821A9B500F1B738 /* FoglieD'UlivoView.swift */; };
+		F0B59C852821A9C100F1B738 /* TrofieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C842821A9C100F1B738 /* TrofieView.swift */; };
+		F0B59C862821A9C100F1B738 /* TrofieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C842821A9C100F1B738 /* TrofieView.swift */; };
+		F0B59C882821A9CE00F1B738 /* FagioliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C872821A9CE00F1B738 /* FagioliniView.swift */; };
+		F0B59C892821A9CE00F1B738 /* FagioliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C872821A9CE00F1B738 /* FagioliniView.swift */; };
+		F0B59C8B2821A9DF00F1B738 /* PappardelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C8A2821A9DF00F1B738 /* PappardelleView.swift */; };
+		F0B59C8C2821A9DF00F1B738 /* PappardelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C8A2821A9DF00F1B738 /* PappardelleView.swift */; };
+		F0B59C8E2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C8D2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift */; };
+		F0B59C8F2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C8D2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift */; };
+		F0B59C922821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C912821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift */; };
+		F0B59C932821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C912821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift */; };
+		F0B59C952821AA4100F1B738 /* StrichettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C942821AA4100F1B738 /* StrichettiView.swift */; };
+		F0B59C962821AA4100F1B738 /* StrichettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C942821AA4100F1B738 /* StrichettiView.swift */; };
+		F0B59C982821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C972821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift */; };
+		F0B59C992821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C972821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift */; };
+		F0B59C9E2821AA8500F1B738 /* CorzettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C9D2821AA8500F1B738 /* CorzettiView.swift */; };
+		F0B59C9F2821AA8500F1B738 /* CorzettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B59C9D2821AA8500F1B738 /* CorzettiView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F02214CF281ACA3B0072D1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02214B5281ACA3A0072D1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02214C0281ACA3B0072D1C6;
+			remoteInfo = "Pasta shapes 2 (iOS)";
+		};
+		F02214DB281ACA3C0072D1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02214B5281ACA3A0072D1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02214C6281ACA3B0072D1C6;
+			remoteInfo = "Pasta shapes 2 (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F02214BB281ACA3A0072D1C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F02214BC281ACA3B0072D1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02214C1281ACA3B0072D1C6 /* Pasta shapes 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pasta shapes 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02214C7281ACA3B0072D1C6 /* Pasta shapes 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pasta shapes 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02214C9281ACA3B0072D1C6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F02214CE281ACA3B0072D1C6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02214D2281ACA3B0072D1C6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F02214D4281ACA3B0072D1C6 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		F02214DA281ACA3C0072D1C6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02214DE281ACA3C0072D1C6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F02214E0281ACA3C0072D1C6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F02214FD281ACB040072D1C6 /* PastaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaApp.swift; sourceTree = "<group>"; };
+		F0221500281ACB430072D1C6 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		F0221503281ACB620072D1C6 /* UniversalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalView.swift; sourceTree = "<group>"; };
+		F0221506281ACBA90072D1C6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		F0221509281ACBCA0072D1C6 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		F022150C281ACBE90072D1C6 /* SemolinaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemolinaView.swift; sourceTree = "<group>"; };
+		F022150F281ACC380072D1C6 /* SpinachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinachView.swift; sourceTree = "<group>"; };
+		F0221512281ACC9C0072D1C6 /* SquidInkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidInkView.swift; sourceTree = "<group>"; };
+		F0B59C422821A6B300F1B738 /* FusilliAlFerretoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusilliAlFerretoView.swift; sourceTree = "<group>"; };
+		F0B59C462821A6FE00F1B738 /* TagiatelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagiatelleView.swift; sourceTree = "<group>"; };
+		F0B59C492821A72E00F1B738 /* TortelliniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortelliniView.swift; sourceTree = "<group>"; };
+		F0B59C4C2821A74B00F1B738 /* CappellacciDiZuccaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CappellacciDiZuccaView.swift; sourceTree = "<group>"; };
+		F0B59C4F2821A76E00F1B738 /* TortelliPiacentiniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortelliPiacentiniView.swift; sourceTree = "<group>"; };
+		F0B59C522821A78300F1B738 /* FarfalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarfalleView.swift; sourceTree = "<group>"; };
+		F0B59C552821A79400F1B738 /* GarganelliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarganelliView.swift; sourceTree = "<group>"; };
+		F0B59C582821A7A300F1B738 /* AnoliniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnoliniView.swift; sourceTree = "<group>"; };
+		F0B59C5B2821A7B600F1B738 /* CappellettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CappellettiView.swift; sourceTree = "<group>"; };
+		F0B59C5E2821A85D00F1B738 /* TaglioliniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaglioliniView.swift; sourceTree = "<group>"; };
+		F0B59C612821A86900F1B738 /* AgnolottiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgnolottiView.swift; sourceTree = "<group>"; };
+		F0B59C642821A87C00F1B738 /* SacchettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacchettiView.swift; sourceTree = "<group>"; };
+		F0B59C682821A8FF00F1B738 /* CavatelliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavatelliView.swift; sourceTree = "<group>"; };
+		F0B59C6B2821A90F00F1B738 /* MalloreddusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalloreddusView.swift; sourceTree = "<group>"; };
+		F0B59C6E2821A91D00F1B738 /* LorighittasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LorighittasView.swift; sourceTree = "<group>"; };
+		F0B59C712821A92F00F1B738 /* CencioniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CencioniView.swift; sourceTree = "<group>"; };
+		F0B59C742821A93B00F1B738 /* CapuntiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapuntiView.swift; sourceTree = "<group>"; };
+		F0B59C772821A94B00F1B738 /* StrascinatiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrascinatiView.swift; sourceTree = "<group>"; };
+		F0B59C7A2821A95C00F1B738 /* CulurgionisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulurgionisView.swift; sourceTree = "<group>"; };
+		F0B59C7D2821A97500F1B738 /* SagneIncannulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagneIncannulateView.swift; sourceTree = "<group>"; };
+		F0B59C812821A9B500F1B738 /* FoglieD'UlivoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoglieD'UlivoView.swift"; sourceTree = "<group>"; };
+		F0B59C842821A9C100F1B738 /* TrofieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrofieView.swift; sourceTree = "<group>"; };
+		F0B59C872821A9CE00F1B738 /* FagioliniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FagioliniView.swift; sourceTree = "<group>"; };
+		F0B59C8A2821A9DF00F1B738 /* PappardelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PappardelleView.swift; sourceTree = "<group>"; };
+		F0B59C8D2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaccheroniAllaChitarraView.swift; sourceTree = "<group>"; };
+		F0B59C912821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrecchietteAlNeroDiSeppiaView.swift; sourceTree = "<group>"; };
+		F0B59C942821AA4100F1B738 /* StrichettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrichettiView.swift; sourceTree = "<group>"; };
+		F0B59C972821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FettuccineAlNeroDiSeppiaView.swift; sourceTree = "<group>"; };
+		F0B59C9D2821AA8500F1B738 /* CorzettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorzettiView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02214BE281ACA3B0072D1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214C4281ACA3B0072D1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214CB281ACA3B0072D1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214D7281ACA3C0072D1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02214B4281ACA3A0072D1C6 = {
+			isa = PBXGroup;
+			children = (
+				F02214B9281ACA3A0072D1C6 /* Shared */,
+				F02214C8281ACA3B0072D1C6 /* macOS */,
+				F02214D1281ACA3B0072D1C6 /* Tests iOS */,
+				F02214DD281ACA3C0072D1C6 /* Tests macOS */,
+				F02214C2281ACA3B0072D1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02214B9281ACA3A0072D1C6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F02214FD281ACB040072D1C6 /* PastaApp.swift */,
+				F02214BB281ACA3A0072D1C6 /* ContentView.swift */,
+				F0221500281ACB430072D1C6 /* NavigationView.swift */,
+				F0B59C452821A6D700F1B738 /* Universal */,
+				F0B59C672821A88C00F1B738 /* Semolina */,
+				F0B59C802821A98900F1B738 /* Spinach */,
+				F0B59C902821AA0E00F1B738 /* SquidInk */,
+				F0221506281ACBA90072D1C6 /* DateExtension.swift */,
+				F0221509281ACBCA0072D1C6 /* ImageExtension.swift */,
+				F02214BC281ACA3B0072D1C6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F02214C2281ACA3B0072D1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02214C1281ACA3B0072D1C6 /* Pasta shapes 2.app */,
+				F02214C7281ACA3B0072D1C6 /* Pasta shapes 2.app */,
+				F02214CE281ACA3B0072D1C6 /* Tests iOS.xctest */,
+				F02214DA281ACA3C0072D1C6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02214C8281ACA3B0072D1C6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F02214C9281ACA3B0072D1C6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F02214D1281ACA3B0072D1C6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F02214D2281ACA3B0072D1C6 /* Tests_iOS.swift */,
+				F02214D4281ACA3B0072D1C6 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F02214DD281ACA3C0072D1C6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F02214DE281ACA3C0072D1C6 /* Tests_macOS.swift */,
+				F02214E0281ACA3C0072D1C6 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F0B59C452821A6D700F1B738 /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				F0221503281ACB620072D1C6 /* UniversalView.swift */,
+				F0B59C422821A6B300F1B738 /* FusilliAlFerretoView.swift */,
+				F0B59C462821A6FE00F1B738 /* TagiatelleView.swift */,
+				F0B59C492821A72E00F1B738 /* TortelliniView.swift */,
+				F0B59C4C2821A74B00F1B738 /* CappellacciDiZuccaView.swift */,
+				F0B59C4F2821A76E00F1B738 /* TortelliPiacentiniView.swift */,
+				F0B59C522821A78300F1B738 /* FarfalleView.swift */,
+				F0B59C552821A79400F1B738 /* GarganelliView.swift */,
+				F0B59C582821A7A300F1B738 /* AnoliniView.swift */,
+				F0B59C5B2821A7B600F1B738 /* CappellettiView.swift */,
+				F0B59C5E2821A85D00F1B738 /* TaglioliniView.swift */,
+				F0B59C612821A86900F1B738 /* AgnolottiView.swift */,
+				F0B59C642821A87C00F1B738 /* SacchettiView.swift */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		F0B59C672821A88C00F1B738 /* Semolina */ = {
+			isa = PBXGroup;
+			children = (
+				F022150C281ACBE90072D1C6 /* SemolinaView.swift */,
+				F0B59C682821A8FF00F1B738 /* CavatelliView.swift */,
+				F0B59C6B2821A90F00F1B738 /* MalloreddusView.swift */,
+				F0B59C6E2821A91D00F1B738 /* LorighittasView.swift */,
+				F0B59C712821A92F00F1B738 /* CencioniView.swift */,
+				F0B59C742821A93B00F1B738 /* CapuntiView.swift */,
+				F0B59C772821A94B00F1B738 /* StrascinatiView.swift */,
+				F0B59C7A2821A95C00F1B738 /* CulurgionisView.swift */,
+				F0B59C7D2821A97500F1B738 /* SagneIncannulateView.swift */,
+			);
+			path = Semolina;
+			sourceTree = "<group>";
+		};
+		F0B59C802821A98900F1B738 /* Spinach */ = {
+			isa = PBXGroup;
+			children = (
+				F022150F281ACC380072D1C6 /* SpinachView.swift */,
+				F0B59C812821A9B500F1B738 /* FoglieD'UlivoView.swift */,
+				F0B59C842821A9C100F1B738 /* TrofieView.swift */,
+				F0B59C872821A9CE00F1B738 /* FagioliniView.swift */,
+				F0B59C8A2821A9DF00F1B738 /* PappardelleView.swift */,
+				F0B59C8D2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift */,
+			);
+			path = Spinach;
+			sourceTree = "<group>";
+		};
+		F0B59C902821AA0E00F1B738 /* SquidInk */ = {
+			isa = PBXGroup;
+			children = (
+				F0221512281ACC9C0072D1C6 /* SquidInkView.swift */,
+				F0B59C912821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift */,
+				F0B59C942821AA4100F1B738 /* StrichettiView.swift */,
+				F0B59C972821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift */,
+				F0B59C9D2821AA8500F1B738 /* CorzettiView.swift */,
+			);
+			path = SquidInk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02214C0281ACA3B0072D1C6 /* Pasta shapes 2 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02214EA281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Pasta shapes 2 (iOS)" */;
+			buildPhases = (
+				F02214BD281ACA3B0072D1C6 /* Sources */,
+				F02214BE281ACA3B0072D1C6 /* Frameworks */,
+				F02214BF281ACA3B0072D1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pasta shapes 2 (iOS)";
+			productName = "Pasta shapes 2 (iOS)";
+			productReference = F02214C1281ACA3B0072D1C6 /* Pasta shapes 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02214C6281ACA3B0072D1C6 /* Pasta shapes 2 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02214ED281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Pasta shapes 2 (macOS)" */;
+			buildPhases = (
+				F02214C3281ACA3B0072D1C6 /* Sources */,
+				F02214C4281ACA3B0072D1C6 /* Frameworks */,
+				F02214C5281ACA3B0072D1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pasta shapes 2 (macOS)";
+			productName = "Pasta shapes 2 (macOS)";
+			productReference = F02214C7281ACA3B0072D1C6 /* Pasta shapes 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02214CD281ACA3B0072D1C6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02214F0281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F02214CA281ACA3B0072D1C6 /* Sources */,
+				F02214CB281ACA3B0072D1C6 /* Frameworks */,
+				F02214CC281ACA3B0072D1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02214D0281ACA3B0072D1C6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F02214CE281ACA3B0072D1C6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F02214D9281ACA3C0072D1C6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02214F3281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F02214D6281ACA3C0072D1C6 /* Sources */,
+				F02214D7281ACA3C0072D1C6 /* Frameworks */,
+				F02214D8281ACA3C0072D1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02214DC281ACA3C0072D1C6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F02214DA281ACA3C0072D1C6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02214B5281ACA3A0072D1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F02214C0281ACA3B0072D1C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F02214C6281ACA3B0072D1C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F02214CD281ACA3B0072D1C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F02214C0281ACA3B0072D1C6;
+					};
+					F02214D9281ACA3C0072D1C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F02214C6281ACA3B0072D1C6;
+					};
+				};
+			};
+			buildConfigurationList = F02214B8281ACA3A0072D1C6 /* Build configuration list for PBXProject "Pasta shapes 2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F02214B4281ACA3A0072D1C6;
+			productRefGroup = F02214C2281ACA3B0072D1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02214C0281ACA3B0072D1C6 /* Pasta shapes 2 (iOS) */,
+				F02214C6281ACA3B0072D1C6 /* Pasta shapes 2 (macOS) */,
+				F02214CD281ACA3B0072D1C6 /* Tests iOS */,
+				F02214D9281ACA3C0072D1C6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02214BF281ACA3B0072D1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02214E6281ACA3C0072D1C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214C5281ACA3B0072D1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02214E7281ACA3C0072D1C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214CC281ACA3B0072D1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214D8281ACA3C0072D1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02214BD281ACA3B0072D1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B59C9E2821AA8500F1B738 /* CorzettiView.swift in Sources */,
+				F0B59C922821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift in Sources */,
+				F0B59C5F2821A85D00F1B738 /* TaglioliniView.swift in Sources */,
+				F0B59C562821A79400F1B738 /* GarganelliView.swift in Sources */,
+				F0B59C622821A86900F1B738 /* AgnolottiView.swift in Sources */,
+				F0B59C432821A6B300F1B738 /* FusilliAlFerretoView.swift in Sources */,
+				F0B59C472821A6FE00F1B738 /* TagiatelleView.swift in Sources */,
+				F0B59C822821A9B500F1B738 /* FoglieD'UlivoView.swift in Sources */,
+				F0B59C6F2821A91D00F1B738 /* LorighittasView.swift in Sources */,
+				F02214E4281ACA3C0072D1C6 /* ContentView.swift in Sources */,
+				F0221513281ACC9C0072D1C6 /* SquidInkView.swift in Sources */,
+				F0B59C722821A92F00F1B738 /* CencioniView.swift in Sources */,
+				F0B59C852821A9C100F1B738 /* TrofieView.swift in Sources */,
+				F0B59C532821A78300F1B738 /* FarfalleView.swift in Sources */,
+				F0B59C592821A7A300F1B738 /* AnoliniView.swift in Sources */,
+				F022150A281ACBCA0072D1C6 /* ImageExtension.swift in Sources */,
+				F0B59C8B2821A9DF00F1B738 /* PappardelleView.swift in Sources */,
+				F0B59C502821A76E00F1B738 /* TortelliPiacentiniView.swift in Sources */,
+				F0B59C952821AA4100F1B738 /* StrichettiView.swift in Sources */,
+				F0B59C6C2821A90F00F1B738 /* MalloreddusView.swift in Sources */,
+				F0221507281ACBA90072D1C6 /* DateExtension.swift in Sources */,
+				F0B59C8E2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift in Sources */,
+				F0B59C7E2821A97500F1B738 /* SagneIncannulateView.swift in Sources */,
+				F0B59C7B2821A95C00F1B738 /* CulurgionisView.swift in Sources */,
+				F0B59C982821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift in Sources */,
+				F0B59C752821A93B00F1B738 /* CapuntiView.swift in Sources */,
+				F0B59C782821A94B00F1B738 /* StrascinatiView.swift in Sources */,
+				F0B59C692821A8FF00F1B738 /* CavatelliView.swift in Sources */,
+				F0221501281ACB430072D1C6 /* NavigationView.swift in Sources */,
+				F0221504281ACB620072D1C6 /* UniversalView.swift in Sources */,
+				F0B59C652821A87C00F1B738 /* SacchettiView.swift in Sources */,
+				F0B59C5C2821A7B600F1B738 /* CappellettiView.swift in Sources */,
+				F0B59C4A2821A72E00F1B738 /* TortelliniView.swift in Sources */,
+				F0B59C882821A9CE00F1B738 /* FagioliniView.swift in Sources */,
+				F0221510281ACC380072D1C6 /* SpinachView.swift in Sources */,
+				F02214FE281ACB040072D1C6 /* PastaApp.swift in Sources */,
+				F0B59C4D2821A74B00F1B738 /* CappellacciDiZuccaView.swift in Sources */,
+				F022150D281ACBE90072D1C6 /* SemolinaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214C3281ACA3B0072D1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B59C9F2821AA8500F1B738 /* CorzettiView.swift in Sources */,
+				F0B59C932821AA3300F1B738 /* OrecchietteAlNeroDiSeppiaView.swift in Sources */,
+				F0B59C602821A85D00F1B738 /* TaglioliniView.swift in Sources */,
+				F0B59C572821A79400F1B738 /* GarganelliView.swift in Sources */,
+				F0B59C632821A86900F1B738 /* AgnolottiView.swift in Sources */,
+				F0B59C442821A6B300F1B738 /* FusilliAlFerretoView.swift in Sources */,
+				F0B59C482821A6FE00F1B738 /* TagiatelleView.swift in Sources */,
+				F0B59C832821A9B500F1B738 /* FoglieD'UlivoView.swift in Sources */,
+				F0B59C702821A91D00F1B738 /* LorighittasView.swift in Sources */,
+				F02214E5281ACA3C0072D1C6 /* ContentView.swift in Sources */,
+				F0221514281ACC9C0072D1C6 /* SquidInkView.swift in Sources */,
+				F0B59C732821A92F00F1B738 /* CencioniView.swift in Sources */,
+				F0B59C862821A9C100F1B738 /* TrofieView.swift in Sources */,
+				F0B59C542821A78300F1B738 /* FarfalleView.swift in Sources */,
+				F0B59C5A2821A7A300F1B738 /* AnoliniView.swift in Sources */,
+				F022150B281ACBCA0072D1C6 /* ImageExtension.swift in Sources */,
+				F0B59C8C2821A9DF00F1B738 /* PappardelleView.swift in Sources */,
+				F0B59C512821A76E00F1B738 /* TortelliPiacentiniView.swift in Sources */,
+				F0B59C962821AA4100F1B738 /* StrichettiView.swift in Sources */,
+				F0B59C6D2821A90F00F1B738 /* MalloreddusView.swift in Sources */,
+				F0221508281ACBA90072D1C6 /* DateExtension.swift in Sources */,
+				F0B59C8F2821A9FB00F1B738 /* MaccheroniAllaChitarraView.swift in Sources */,
+				F0B59C7F2821A97500F1B738 /* SagneIncannulateView.swift in Sources */,
+				F0B59C7C2821A95C00F1B738 /* CulurgionisView.swift in Sources */,
+				F0B59C992821AA6700F1B738 /* FettuccineAlNeroDiSeppiaView.swift in Sources */,
+				F0B59C762821A93B00F1B738 /* CapuntiView.swift in Sources */,
+				F0B59C792821A94B00F1B738 /* StrascinatiView.swift in Sources */,
+				F0B59C6A2821A8FF00F1B738 /* CavatelliView.swift in Sources */,
+				F0221502281ACB430072D1C6 /* NavigationView.swift in Sources */,
+				F0221505281ACB620072D1C6 /* UniversalView.swift in Sources */,
+				F0B59C662821A87C00F1B738 /* SacchettiView.swift in Sources */,
+				F0B59C5D2821A7B600F1B738 /* CappellettiView.swift in Sources */,
+				F0B59C4B2821A72E00F1B738 /* TortelliniView.swift in Sources */,
+				F0B59C892821A9CE00F1B738 /* FagioliniView.swift in Sources */,
+				F0221511281ACC380072D1C6 /* SpinachView.swift in Sources */,
+				F02214FF281ACB040072D1C6 /* PastaApp.swift in Sources */,
+				F0B59C4E2821A74B00F1B738 /* CappellacciDiZuccaView.swift in Sources */,
+				F022150E281ACBE90072D1C6 /* SemolinaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214CA281ACA3B0072D1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02214D5281ACA3B0072D1C6 /* Tests_iOSLaunchTests.swift in Sources */,
+				F02214D3281ACA3B0072D1C6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02214D6281ACA3C0072D1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02214E1281ACA3C0072D1C6 /* Tests_macOSLaunchTests.swift in Sources */,
+				F02214DF281ACA3C0072D1C6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F02214D0281ACA3B0072D1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02214C0281ACA3B0072D1C6 /* Pasta shapes 2 (iOS) */;
+			targetProxy = F02214CF281ACA3B0072D1C6 /* PBXContainerItemProxy */;
+		};
+		F02214DC281ACA3C0072D1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02214C6281ACA3B0072D1C6 /* Pasta shapes 2 (macOS) */;
+			targetProxy = F02214DB281ACA3C0072D1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F02214E8281ACA3C0072D1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F02214E9281ACA3C0072D1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F02214EB281ACA3C0072D1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Pasta-shapes-2";
+				PRODUCT_NAME = "Pasta shapes 2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02214EC281ACA3C0072D1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Pasta-shapes-2";
+				PRODUCT_NAME = "Pasta shapes 2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02214EE281ACA3C0072D1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Pasta-shapes-2";
+				PRODUCT_NAME = "Pasta shapes 2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F02214EF281ACA3C0072D1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Pasta-shapes-2";
+				PRODUCT_NAME = "Pasta shapes 2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F02214F1281ACA3C0072D1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pasta shapes 2 (iOS)";
+			};
+			name = Debug;
+		};
+		F02214F2281ACA3C0072D1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pasta shapes 2 (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02214F4281ACA3C0072D1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pasta shapes 2 (macOS)";
+			};
+			name = Debug;
+		};
+		F02214F5281ACA3C0072D1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MLR2232Z94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Desai.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pasta shapes 2 (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02214B8281ACA3A0072D1C6 /* Build configuration list for PBXProject "Pasta shapes 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02214E8281ACA3C0072D1C6 /* Debug */,
+				F02214E9281ACA3C0072D1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02214EA281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Pasta shapes 2 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02214EB281ACA3C0072D1C6 /* Debug */,
+				F02214EC281ACA3C0072D1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02214ED281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Pasta shapes 2 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02214EE281ACA3C0072D1C6 /* Debug */,
+				F02214EF281ACA3C0072D1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02214F0281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02214F1281ACA3C0072D1C6 /* Debug */,
+				F02214F2281ACA3C0072D1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02214F3281ACA3C0072D1C6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02214F4281ACA3C0072D1C6 /* Debug */,
+				F02214F5281ACA3C0072D1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F02214B5281ACA3A0072D1C6 /* Project object */;
+}
